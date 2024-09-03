@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+.container{
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-template-rows:repeat(5,1fr);
+	gap:5px;
+	background-color:white;
+	
+}
+.item{
+	height:110px;
+	font-size:25px;
+	color:white;
+}
+.item1{
+	grid-column:span 4 / auto;
+	background-color:green;
+}
+.item2{
+	grid-row:span 4 / auto;
+	
+	background-color:green;
+}
+.item3{
+	background-color:green;
+}
+.item4{
+	grid-column:span 2 / auto;
+	background-color:green;
+}
+.item5{
+	grid-column:span 2 / auto;
+	background-color:green;
+}
+.item6{
+	background-color:green;
+}
+.item7{
+	background-color:green;
+}
+.item8{
+	background-color:green;
+}
+.item9{
+	background-color:green;
+}
+.item10{
+	grid-column: span 3 / auto;
+	background-color:green;
+}
+
